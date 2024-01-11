@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading1">First</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading2">Second</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <h4 id="scrollspyHeading1">First heading</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, asperiores dolorum. Magnam facere ullam perspiciatis incidunt nemo eveniet eius, odio soluta illum nobis optio sint eligendi. Ratione laborum nisi explicabo?</p>
+        <h4 id="scrollspyHeading2">Second heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui temporibus reiciendis quia aliquam commodi odio, eligendi tempora, sint iusto consequatur dicta libero consectetur molestiae? Molestiae ad maxime odit autem placeat.</p>
+        <h4 id="scrollspyHeading3">Third heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui temporibus reiciendis quia aliquam commodi odio, eligendi tempora, sint iusto consequatur dicta libero consectetur molestiae? Molestiae ad maxime odit autem placeat.</p>
+        <h4 id="scrollspyHeading4">Fourth heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui temporibus reiciendis quia aliquam commodi odio, eligendi tempora, sint iusto consequatur dicta libero consectetur molestiae? Molestiae ad maxime odit autem placeat.</p>
+        <h4 id="scrollspyHeading5">Fifth heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui temporibus reiciendis quia aliquam commodi odio, eligendi tempora, sint iusto consequatur dicta libero consectetur molestiae? Molestiae ad maxime odit autem placeat.</p>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-4">
+          <div id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
+            <a class="p-1 rounded" href="#simple-list-item-1">Item 1</a>
+            <a class="p-1 rounded" href="#simple-list-item-2">Item 2</a>
+            <a class="p-1 rounded" href="#simple-list-item-3">Item 3</a>
+            <a class="p-1 rounded" href="#simple-list-item-4">Item 4</a>
+            <a class="p-1 rounded" href="#simple-list-item-5">Item 5</a>
+          </div>
+        </div>
+        
+        <div class="col-8">
+          <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+            <h4 id="simple-list-item-1">Item 1</h4>
+            <p>... Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quis rerum voluptas placeat fugit omnis necessitatibus voluptatum autem veritatis doloremque. Nostrum maiores tempora qui quasi velit est? Modi, quas quo.</p>
+            <h4 id="simple-list-item-2">Item 2</h4>
+            <p>... Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quis sunt suscipit cum non magnam deleniti commodi modi fugiat quos. At, odio quisquam. Cupiditate, dignissimos quos architecto laboriosam dolor quia.</p>
+            <h4 id="simple-list-item-3">Item 3</h4>
+            <p>... Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quis sunt suscipit cum non magnam deleniti commodi modi fugiat quos. At, odio quisquam. Cupiditate, dignissimos quos architecto laboriosam dolor quia.</p>
+            <h4 id="simple-list-item-4">Item 4</h4>
+            <p>... Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quis sunt suscipit cum non magnam deleniti commodi modi fugiat quos. At, odio quisquam. Cupiditate, dignissimos quos architecto laboriosam dolor quia.</p>
+            <h4 id="simple-list-item-5">Item 5</h4>
+            <p>... Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quis sunt suscipit cum non magnam deleniti commodi modi fugiat quos. At, odio quisquam. Cupiditate, dignissimos quos architecto laboriosam dolor quia.</p>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-4">
+          <div id="list-example" class="list-group">
+            <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+          </div>
+        </div>
+        <div class="col-8">
+          <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+            <h4 id="list-item-1">Item 1</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem assumenda sed cumque. Modi quo quis et eveniet iure totam dolor quisquam recusandae fugiat. Facilis fugit debitis odit cupiditate incidunt rem?</p>
+            <h4 id="list-item-2">Item 2</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem assumenda sed cumque. Modi quo quis et eveniet iure totam dolor quisquam recusandae fugiat. Facilis fugit debitis odit cupiditate incidunt rem?</p>
+            <h4 id="list-item-3">Item 3</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem assumenda sed cumque. Modi quo quis et eveniet iure totam dolor quisquam recusandae fugiat. Facilis fugit debitis odit cupiditate incidunt rem?</p>
+            <h4 id="list-item-4">Item 4</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem assumenda sed cumque. Modi quo quis et eveniet iure totam dolor quisquam recusandae fugiat. Facilis fugit debitis odit cupiditate incidunt rem?</p>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-4">
+          <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link" href="#item-1">Item 1</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
+                <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+              </nav>
+              <a class="nav-link" href="#item-2">Item 2</a>
+              <a class="nav-link" href="#item-3">Item 3</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+                <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+              </nav>
+            </nav>
+          </nav>
+        </div>
+      
+        <div class="col-8">
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+            <div id="item-1">
+              <h4>Item 1</h4>
+              <p>... Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum expedita vero nemo a sequi nostrum perspiciatis magnam rem, quam quibusdam eveniet repudiandae repellendus vel eaque blanditiis ipsa nobis officia facilis!</p>
+            </div> 
+            <div id="item-1-1">
+              <h5>Item 1-1</h5>
+              <p>.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum expedita vero nemo a sequi nostrum perspiciatis magnam rem, quam quibusdam eveniet repudiandae repellendus vel eaque blanditiis ipsa nobis officia facilis!..</p>
+            </div>
+            <div id="item-1-2">
+              <h5>Item 1-2</h5>
+              <p>..  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum expedita vero nemo a sequi nostrum perspiciatis magnam rem, quam quibusdam eveniet repudiandae repellendus vel eaque blanditiis ipsa nobis officia facilis!.</p>
+            </div>
+            <div id="item-2">
+              <h4>Item 2</h4>
+              <p>...  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum expedita vero nemo a sequi nostrum perspiciatis magnam rem, quam quibusdam eveniet repudiandae repellendus vel eaque blanditiis ipsa nobis officia facilis!</p>
+            </div>
+            <div id="item-3">
+              <h4>Item 3</h4>
+              <p>...  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum expedita vero nemo a sequi nostrum perspiciatis magnam rem, quam quibusdam eveniet repudiandae repellendus vel eaque blanditiis ipsa nobis officia facilis!</p>
+            </div>
+            <div id="item-3-1">
+              <h5>Item 3-1</h5>
+              <p>..  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum expedita vero nemo a sequi nostrum perspiciatis magnam rem, quam quibusdam eveniet repudiandae repellendus vel eaque blanditiis ipsa nobis officia facilis!.</p>
+            </div>
+            <div id="item-3-2">
+              <h5>Item 3-2</h5>
+              <p>...  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum expedita vero nemo a sequi nostrum perspiciatis magnam rem, quam quibusdam eveniet repudiandae repellendus vel eaque blanditiis ipsa nobis officia facilis!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>

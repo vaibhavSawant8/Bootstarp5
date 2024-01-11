@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid mt-3">
+  <h1>Small Grid</h1>
+  <p>The following example will result in a 25%/75% split on small, medium, large, xlarge and xxlarge devices (<strong>576px and above</strong>). On extra small devices, it will stack (100% width).</p>
+  <p>Resize the browser window to see the effect.</p>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-3 bg-primary text-white">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </div>
+      <div class="col-sm-9 bg-dark text-white">
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 33.3/66.6% split: -->
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4 bg-primary">
+        <p>Lorem ipsum...</p>
+      </div>
+      <div class="col-sm-8 bg-dark">
+        <p>Sed ut perspiciatis...</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- 50%/50% split: -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6 bg-primary">
+        <p>Lorem ipsum...</p>
+      </div>
+      <div class="col-sm-6 bg-dark">
+        <p>Sed ut perspiciatis...</p>
+      </div>
+    </div>
+  </div>
+<!-- Two columns: 50% width on all screens, except for extra small (100% width) -->
+<div class="row">
+    <div class="col-sm">1 of 2</div>
+    <div class="col-sm">2 of 2</div>
+  </div>
+  
+  <!-- Four columns: 25% width on all screens, except for extra small (100% width)-->
+  <div class="row">
+    <div class="col-sm">1 of 4</div>
+    <div class="col-sm">2 of 4</div>
+    <div class="col-sm">3 of 4</div>
+    <div class="col-sm">4 of 4</div>
+  </div>  
+
+</body>
+</html>
